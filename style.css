@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: goldenrod;
+  color: #003399
 }
 
 a:hover {
@@ -23,6 +23,19 @@ a:hover {
 
 #buletin, #footing, #horario{
   background-color: #1a8cff;
+}
+
+.bible{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #575654;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.bible span{
+  background: #fff;
+  padding: 0 10px;
 }
 
 @media (max-width: 768px) {
